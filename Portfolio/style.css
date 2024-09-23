@@ -1,0 +1,50 @@
+html, body{
+    margin: auto;
+    background-color: #F7F5DF;
+    font-family: sans-serif;
+    border: 2px solid #AE936F;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    color: #AE936F;
+    font-weight: bold;
+}
+
+pre{
+    text-align: center;
+    color: #AE936F;
+    margin: 0px;
+}
+
+hr{
+    border-top: 1px solid #AE936F; 
+    padding: 0px; 
+    padding-left: 0px;  
+}
+
+div{
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    height: 300px;
+    margin: 5px;
+}
+
+a{
+    color: #AE936F;
+    margin-top: 0px;
+}
+
+.center-alligned {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
