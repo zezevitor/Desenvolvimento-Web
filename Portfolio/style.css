@@ -4,9 +4,16 @@ html, body{
     font-family: sans-serif;
     border: 2px solid #AE936F;
     padding: 30px;
+    font-size: 125%;
 }
 
 h1{
+    text-align: center;
+    color: #AE936F;
+    font-weight: bold;
+}
+
+h2{
     text-align: center;
     color: #AE936F;
     font-weight: bold;
@@ -25,7 +32,11 @@ hr{
 }
 
 div{
-    margin: 10px;
+    margin: 20px;
+}
+
+iframe {
+    border: 2px solid #AE936F;
 }
 
 img {
@@ -40,6 +51,10 @@ a{
     margin-top: 0px;
 }
 
+table {
+    background-color: rgb(0, 0, 0, 0.05);
+}
+
 .center-alligned {
     text-align: center;
 }
@@ -47,4 +62,42 @@ a{
 .grid-container {
     display: grid;
     grid-template-columns: 50% 50%;
-  }
+}
+
+.tg {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+.tg td{
+    border-color:#AE936F;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg th {
+    border-color:#AE936F;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px; 
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg .tg-baqh {
+    text-align:center;
+    vertical-align:top
+}
+
+.tg .tg-0lax {
+    text-align:left;
+    vertical-align:top
+}
